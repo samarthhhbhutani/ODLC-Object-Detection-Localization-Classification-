@@ -5,6 +5,9 @@ This repository contains the code for an autonomous aerial system that detects a
 It utilized Wide ResNet-50 for Optical Character Recognition and Detecting colour and YOLO V8 for Region Proposal.
 
 Directory Structure:
+<br/>
 Final-PipeLine-Run: Contains the final pipeline integrating all parts (ODLC+DroneKit+Takeoff+Land)
+<br/>
 ODLC-Sub-PipeLine: Contains the pipeline integrating ODLC
+<br/>
 Waypoints.txt: Contains the waypoints to which drone is to be sent to
