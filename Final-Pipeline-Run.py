@@ -182,7 +182,7 @@ def flyMission():
             print(f"UAV location: {uav_lat}, {uav_lon}, {uav_alt}")
             with open('sd.txt', 'w') as file:
                 file.write(str(i))
-            subprocess.call('python3 doit.py', shell=True)
+            subprocess.call('python3 ODLC Sub-Pipeline.py', shell=True)
             time.sleep(10)
             i += 1
 
